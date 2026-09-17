@@ -1,2 +1,2 @@
-# pricehawk-data
+# PriceHawk Data
 ChatGPT data for PriceHawk
