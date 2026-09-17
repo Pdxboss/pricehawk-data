@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-16T20:55:00-07:00",
+  "stores": [
+    {
+      "id": "target-cascade-station",
+      "retailer": "Target",
+      "name": "Cascade Station",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": "Initial PriceHawk local Target store. Exact retailer store number can be added later."
+    },
+    {
+      "id": "target-hayden-island",
+      "retailer": "Target",
+      "name": "Hayden Island",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": null
+    },
+    {
+      "id": "target-fairview",
+      "retailer": "Target",
+      "name": "Fairview",
+      "city": "Fairview",
+      "state": "OR",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": null
+    },
+    {
+      "id": "target-beaverton",
+      "retailer": "Target",
+      "name": "Beaverton",
+      "city": "Beaverton",
+      "state": "OR",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": "Area-level placeholder until the exact preferred Beaverton Target location is locked."
+    },
+    {
+      "id": "target-hillsboro",
+      "retailer": "Target",
+      "name": "Hillsboro",
+      "city": "Hillsboro",
+      "state": "OR",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": "Area-level placeholder until individual Hillsboro stores are separated."
+    },
+    {
+      "id": "target-tigard",
+      "retailer": "Target",
+      "name": "Tigard",
+      "city": "Tigard",
+      "state": "OR",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": null
+    },
+    {
+      "id": "target-vancouver",
+      "retailer": "Target",
+      "name": "Vancouver",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": null,
+      "phone": null,
+      "active": true,
+      "notes": "Area-level placeholder until individual Vancouver stores are separated."
+    }
+  ]
+}
