@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-16T20:55:00-07:00",
+  "events": [
+    {
+      "id": "evt-20260916-001",
+      "deal_id": "target-255-14-9998",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T18:20:00-07:00",
+      "message": "Created iPhone 16 128GB Target clearance opportunity from fresh public deal evidence.",
+      "source": "PriceHawk scanner",
+      "metadata": {
+        "reported_price": 249.0,
+        "dpci": "255-14-9998"
+      }
+    },
+    {
+      "id": "evt-20260916-002",
+      "deal_id": "target-255-14-9998",
+      "type": "store_signal_added",
+      "timestamp": "2026-09-16T19:12:00-07:00",
+      "message": "Cascade Station added as a Limited Stock local signal. Local price remains unverified.",
+      "source": "Target app",
+      "metadata": {
+        "store_id": "target-cascade-station",
+        "inventory": "limited"
+      }
+    },
+    {
+      "id": "evt-20260916-003",
+      "deal_id": "target-255-14-5257",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T19:20:00-07:00",
+      "message": "Created priority watch for iPhone 16 Pro 256GB Black Titanium.",
+      "source": "PriceHawk scanner",
+      "metadata": {
+        "dpci": "255-14-5257"
+      }
+    }
+  ]
+}
