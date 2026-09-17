@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-16T20:55:00-07:00",
+  "updated_at": "2026-09-16T21:14:17-07:00",
   "deals": [
     {
       "id": "target-255-14-9998",
@@ -115,6 +115,76 @@
       "store_signals": [],
       "price_history": [],
       "notes": "Priority watch item. Require fresh clearance evidence before promoting to VERIFY or ACTIONABLE."
+    },
+    {
+      "id": "target-207-50-8383",
+      "status": "verify",
+      "retailer": "Target",
+      "product": "Kirby and the Forgotten Land - Nintendo Switch 2 Edition + Star-Crossed World",
+      "brand": "Nintendo",
+      "category": "Gaming",
+      "image_url": null,
+      "currency": "USD",
+      "regular_price": 79.99,
+      "reported_price": 24.0,
+      "discount_pct": 70.0,
+      "estimated_resale": null,
+      "estimated_profit": null,
+      "estimated_roi": null,
+      "max_buy_price": null,
+      "dpci": "207-50-8383",
+      "tcin": "94694201",
+      "upc": "045496905811",
+      "sku": null,
+      "model": null,
+      "carrier_status": null,
+      "national_confidence": "high",
+      "local_verification": false,
+      "reported_location": "Colorado, USA",
+      "first_seen": "2026-09-16T21:14:17-07:00",
+      "last_seen": "2026-09-16T21:14:17-07:00",
+      "sources": [
+        {
+          "id": "src-target-207-50-8383-001",
+          "type": "reddit",
+          "url": "https://www.reddit.com/r/switch2/comments/1wi8j8n/target_discounts_on_games/",
+          "reported_price": 24.0,
+          "location": "Colorado, USA",
+          "observed_at": "2026-09-16T21:14:17-07:00",
+          "evidence": "Fresh Target clearance report lists Kirby at $24 and states the find was in Colorado.",
+          "is_primary": true
+        },
+        {
+          "id": "src-target-207-50-8383-002",
+          "type": "reddit",
+          "url": "https://www.reddit.com/r/switch2/comments/1wigdyk/target_clearance_finds/",
+          "reported_price": 24.0,
+          "location": null,
+          "observed_at": "2026-09-16T21:14:17-07:00",
+          "evidence": "Independent fresh Target clearance report also lists Kirby at $24.",
+          "is_primary": false
+        },
+        {
+          "id": "src-target-207-50-8383-003",
+          "type": "retailer",
+          "url": "https://www.target.com/p/-/A-94694201",
+          "reported_price": 79.99,
+          "location": null,
+          "observed_at": "2026-09-16T21:14:17-07:00",
+          "evidence": "Official Target listing confirms the physical product, $79.99 reference price, DPCI 207-50-8383, TCIN 94694201, and UPC 045496905811.",
+          "is_primary": false
+        }
+      ],
+      "store_signals": [],
+      "price_history": [
+        {
+          "price": 24.0,
+          "price_type": "reported_clearance",
+          "observed_at": "2026-09-16T21:14:17-07:00",
+          "source_id": "src-target-207-50-8383-001"
+        }
+      ],
+      "notes": "Fresh, corroborated national clearance lead. No Portland/Vancouver-area price or inventory confirmation yet."
     }
   ]
 }
