@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-16T20:55:00-07:00",
+  "deals": [
+    {
+      "id": "target-255-14-9998",
+      "status": "verify",
+      "retailer": "Target",
+      "product": "Apple iPhone 16 128GB Ultramarine",
+      "brand": "Apple",
+      "category": "Phones",
+      "image_url": null,
+      "currency": "USD",
+      "regular_price": 829.0,
+      "reported_price": 249.0,
+      "discount_pct": 69.96,
+      "estimated_resale": null,
+      "estimated_profit": null,
+      "estimated_roi": null,
+      "max_buy_price": null,
+      "dpci": "255-14-9998",
+      "tcin": "86076075",
+      "upc": "195949820939",
+      "sku": null,
+      "model": null,
+      "carrier_status": "AT&T",
+      "national_confidence": "high",
+      "local_verification": false,
+      "reported_location": "United States",
+      "first_seen": "2026-09-16T18:20:00-07:00",
+      "last_seen": "2026-09-16T20:55:00-07:00",
+      "sources": [
+        {
+          "id": "src-target-255-14-9998-001",
+          "type": "reddit",
+          "url": "https://www.reddit.com/r/Deals_Central/comments/1wi5qat/target_is_selling_these_iphone_16s_for_only_249/",
+          "reported_price": 249.0,
+          "location": null,
+          "observed_at": "2026-09-16T18:20:00-07:00",
+          "evidence": "Fresh public deal report naming the $249 Target clearance price.",
+          "is_primary": true
+        },
+        {
+          "id": "src-target-255-14-9998-002",
+          "type": "retailer",
+          "url": "https://www.target.com/p/-/A-86076075",
+          "reported_price": null,
+          "location": null,
+          "observed_at": "2026-09-16T18:20:00-07:00",
+          "evidence": "Official Target product identity used to confirm product identifiers.",
+          "is_primary": false
+        }
+      ],
+      "store_signals": [
+        {
+          "store_id": "target-cascade-station",
+          "inventory": "limited",
+          "observed_price": null,
+          "verified": false,
+          "verification_type": null,
+          "checked_at": "2026-09-16T19:12:00-07:00",
+          "source": "Target app",
+          "notes": "Target app displayed Limited stock / Visit your store to purchase. Local clearance price remains unverified."
+        }
+      ],
+      "price_history": [
+        {
+          "price": 249.0,
+          "price_type": "reported_clearance",
+          "observed_at": "2026-09-16T18:20:00-07:00",
+          "source_id": "src-target-255-14-9998-001"
+        }
+      ],
+      "notes": "National deal evidence is stronger than local evidence. Do not present $249 as a Portland-area verified price."
+    },
+    {
+      "id": "target-255-14-5257",
+      "status": "watching",
+      "retailer": "Target",
+      "product": "Apple iPhone 16 Pro 256GB Black Titanium",
+      "brand": "Apple",
+      "category": "Phones",
+      "image_url": null,
+      "currency": "USD",
+      "regular_price": null,
+      "reported_price": null,
+      "discount_pct": null,
+      "estimated_resale": null,
+      "estimated_profit": null,
+      "estimated_roi": null,
+      "max_buy_price": null,
+      "dpci": "255-14-5257",
+      "tcin": "90539855",
+      "upc": "195949770272",
+      "sku": null,
+      "model": null,
+      "carrier_status": "AT&T",
+      "national_confidence": "medium",
+      "local_verification": false,
+      "reported_location": null,
+      "first_seen": "2026-09-16T19:20:00-07:00",
+      "last_seen": "2026-09-16T20:55:00-07:00",
+      "sources": [
+        {
+          "id": "src-target-255-14-5257-001",
+          "type": "retailer",
+          "url": "https://www.target.com/p/-/A-90539855",
+          "reported_price": null,
+          "location": null,
+          "observed_at": "2026-09-16T19:20:00-07:00",
+          "evidence": "Official Target product identity confirms DPCI, TCIN and UPC. No fresh local clearance price is confirmed.",
+          "is_primary": true
+        }
+      ],
+      "store_signals": [],
+      "price_history": [],
+      "notes": "Priority watch item. Require fresh clearance evidence before promoting to VERIFY or ACTIONABLE."
+    }
+  ]
+}
