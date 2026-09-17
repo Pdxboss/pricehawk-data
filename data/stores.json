@@ -1,28 +1,30 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-16T20:55:00-07:00",
+  "updated_at": "2026-09-16T21:32:20-07:00",
   "stores": [
+    {
+      "id": "target-portland-east-washington",
+      "retailer": "Target",
+      "name": "Portland East Washington Street",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": null,
+      "phone": "503-252-5850",
+      "active": true,
+      "address": "9800 SE Washington St, Portland, OR 97216-2420",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
     {
       "id": "target-cascade-station",
       "retailer": "Target",
-      "name": "Cascade Station — PERMISSION TEST",
+      "name": "Portland Cascade Station",
       "city": "Portland",
       "state": "OR",
-      "store_number": null,
-      "phone": null,
+      "store_number": "2523",
+      "phone": "971-230-1930",
       "active": true,
-      "notes": "Initial PriceHawk local Target store. Exact retailer store number can be added later."
-    },
-    {
-      "id": "target-hayden-island",
-      "retailer": "Target",
-      "name": "Hayden Island",
-      "city": "Portland",
-      "state": "OR",
-      "store_number": null,
-      "phone": null,
-      "active": true,
-      "notes": null
+      "address": "9401 NE Cascades Pkwy, Portland, OR 97220-6824",
+      "notes": "Verified against Target store locator. Store number 2523 is from Target's store page path."
     },
     {
       "id": "target-fairview",
@@ -31,9 +33,22 @@
       "city": "Fairview",
       "state": "OR",
       "store_number": null,
-      "phone": null,
+      "phone": "503-674-9109",
       "active": true,
-      "notes": null
+      "address": "21500 NE Halsey St, Fairview, OR 97024-8616",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "target-hayden-island",
+      "retailer": "Target",
+      "name": "Portland Hayden Island Dr",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": null,
+      "phone": "503-205-9109",
+      "active": true,
+      "address": "1555 N Tomahawk Island Dr, Portland, OR 97217-8296",
+      "notes": "Verified against Target store locator on 2026-09-16."
     },
     {
       "id": "target-beaverton",
@@ -42,9 +57,46 @@
       "city": "Beaverton",
       "state": "OR",
       "store_number": null,
-      "phone": null,
+      "phone": "503-626-8345",
       "active": true,
-      "notes": "Area-level placeholder until the exact preferred Beaverton Target location is locked."
+      "address": "10775 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005-3001",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "target-cedar-mill",
+      "retailer": "Target",
+      "name": "Cedar Mill",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": null,
+      "phone": "503-403-3619",
+      "active": true,
+      "address": "12675 NW Cornell Rd, Portland, OR 97229-5886",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "target-washington-square",
+      "retailer": "Target",
+      "name": "Washington Square",
+      "city": "Tigard",
+      "state": "OR",
+      "store_number": null,
+      "phone": "503-624-0273",
+      "active": true,
+      "address": "9009 SW Hall Blvd, Tigard, OR 97223-4432",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "target-tanasbourne",
+      "retailer": "Target",
+      "name": "Tanasbourne",
+      "city": "Hillsboro",
+      "state": "OR",
+      "store_number": null,
+      "phone": "503-531-3656",
+      "active": true,
+      "address": "11095 NE Evergreen Pkwy, Hillsboro, OR 97006-7510",
+      "notes": "Verified against Target store locator on 2026-09-16."
     },
     {
       "id": "target-hillsboro",
@@ -53,31 +105,226 @@
       "city": "Hillsboro",
       "state": "OR",
       "store_number": null,
-      "phone": null,
+      "phone": "503-693-1016",
       "active": true,
-      "notes": "Area-level placeholder until individual Hillsboro stores are separated."
+      "address": "2295 SE Tualatin Valley Hwy, Hillsboro, OR 97123-7915",
+      "notes": "Verified against Target store locator on 2026-09-16."
     },
     {
-      "id": "target-tigard",
+      "id": "target-vancouver-mill-plain",
       "retailer": "Target",
-      "name": "Tigard",
-      "city": "Tigard",
-      "state": "OR",
-      "store_number": null,
-      "phone": null,
-      "active": true,
-      "notes": null
-    },
-    {
-      "id": "target-vancouver",
-      "retailer": "Target",
-      "name": "Vancouver",
+      "name": "Vancouver Mill Plain Blvd",
       "city": "Vancouver",
       "state": "WA",
       "store_number": null,
+      "phone": "360-449-6420",
+      "active": true,
+      "address": "16200 SE Mill Plain Blvd, Vancouver, WA 98684-9638",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "target-vancouver-plaza",
+      "retailer": "Target",
+      "name": "Vancouver Plaza Dr",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": null,
+      "phone": "360-253-4324",
+      "active": true,
+      "address": "7809C NE Vancouver Plaza Dr, Vancouver, WA 98662-6624",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "target-vancouver-hazel-dell",
+      "retailer": "Target",
+      "name": "Vancouver Hazel Dell Ave",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": null,
+      "phone": "360-713-0004",
+      "active": true,
+      "address": "8801 NE Hazel Dell Ave, Vancouver, WA 98665-8145",
+      "notes": "Verified against Target store locator on 2026-09-16."
+    },
+    {
+      "id": "homedepot-beaverton-4001",
+      "retailer": "Home Depot",
+      "name": "Beaverton",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": "4001",
+      "phone": "503-646-1525",
+      "active": true,
+      "address": "13700 NW Science Pk Dr, Portland, OR 97229",
+      "notes": "Verified against Home Depot store locator."
+    },
+    {
+      "id": "homedepot-south-beaverton-4018",
+      "retailer": "Home Depot",
+      "name": "South Beaverton",
+      "city": "Beaverton",
+      "state": "OR",
+      "store_number": "4018",
+      "phone": "503-469-4242",
+      "active": true,
+      "address": "4401 SW 110th Ave, Beaverton, OR 97005",
+      "notes": "Verified against Home Depot store locator."
+    },
+    {
+      "id": "homedepot-hillsboro-4010",
+      "retailer": "Home Depot",
+      "name": "Hillsboro",
+      "city": "Hillsboro",
+      "state": "OR",
+      "store_number": "4010",
+      "phone": "503-693-9090",
+      "active": true,
+      "address": "1950 SE Minter Bridge Rd, Hillsboro, OR 97123",
+      "notes": "Verified against Home Depot store locator."
+    },
+    {
+      "id": "homedepot-tigard-4002",
+      "retailer": "Home Depot",
+      "name": "Tigard",
+      "city": "Tigard",
+      "state": "OR",
+      "store_number": "4002",
+      "phone": "503-639-3500",
+      "active": true,
+      "address": "14800 SW Sequoia Pkwy, Tigard, OR 97224",
+      "notes": "Verified against Home Depot store locator."
+    },
+    {
+      "id": "homedepot-jantzen-beach-4007",
+      "retailer": "Home Depot",
+      "name": "Jantzen Beach",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": "4007",
+      "phone": "503-289-9200",
+      "active": true,
+      "address": "1728 N Tomahawk Island Dr, Portland, OR 97217",
+      "notes": "Verified against Home Depot store locator."
+    },
+    {
+      "id": "homedepot-ne-portland-4004",
+      "retailer": "Home Depot",
+      "name": "NE Portland",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": "4004",
       "phone": null,
       "active": true,
-      "notes": "Area-level placeholder until individual Vancouver stores are separated."
+      "address": "11633 NE Glenn Widing Drive, Portland, OR 97220",
+      "notes": "Verified against Home Depot store locator; phone left null because it was not captured in the baseline source excerpt."
+    },
+    {
+      "id": "homedepot-e-portland-mall-4013",
+      "retailer": "Home Depot",
+      "name": "E Portland Mall",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": "4013",
+      "phone": "503-261-8543",
+      "active": true,
+      "address": "10120 SE Washington St, Portland, OR 97216",
+      "notes": "Verified against Home Depot store locator."
+    },
+    {
+      "id": "homedepot-vancouver-4718",
+      "retailer": "Home Depot",
+      "name": "Vancouver",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": "4718",
+      "phone": "360-253-3993",
+      "active": true,
+      "address": "8601 NE Andresen Rd, Vancouver, WA 98665",
+      "notes": "Verified against Home Depot store page on 2026-09-16."
+    },
+    {
+      "id": "homedepot-east-vancouver-4738",
+      "retailer": "Home Depot",
+      "name": "East Vancouver",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": "4738",
+      "phone": "360-254-6289",
+      "active": true,
+      "address": "330 SE 192nd Avenue, Vancouver, WA 98683",
+      "notes": "Verified against Home Depot store page on 2026-09-16."
+    },
+    {
+      "id": "lowes-portland-delta-park-2579",
+      "retailer": "Lowe's",
+      "name": "Portland-Delta Park",
+      "city": "Portland",
+      "state": "OR",
+      "store_number": "2579",
+      "phone": "503-737-3000",
+      "active": true,
+      "address": "1160 N Hayden Meadows Drive, Portland, OR 97217",
+      "notes": "Verified against Lowe's store page."
+    },
+    {
+      "id": "lowes-hillsboro-1558",
+      "retailer": "Lowe's",
+      "name": "Hillsboro",
+      "city": "Hillsboro",
+      "state": "OR",
+      "store_number": "1558",
+      "phone": "503-844-6200",
+      "active": true,
+      "address": "1951 SE 24th Avenue, Hillsboro, OR 97123",
+      "notes": "Verified against Lowe's store page."
+    },
+    {
+      "id": "lowes-tigard-1108",
+      "retailer": "Lowe's",
+      "name": "Tigard",
+      "city": "Tigard",
+      "state": "OR",
+      "store_number": "1108",
+      "phone": "503-624-2644",
+      "active": true,
+      "address": "12615 SW 72nd Avenue, Tigard, OR 97223",
+      "notes": "Verified against Lowe's store page."
+    },
+    {
+      "id": "lowes-wood-village-1114",
+      "retailer": "Lowe's",
+      "name": "Wood Village",
+      "city": "Wood Village",
+      "state": "OR",
+      "store_number": "1114",
+      "phone": "503-667-1005",
+      "active": true,
+      "address": "1000 NE Wood Village Boulevard, Wood Village, OR 97060",
+      "notes": "Verified against Lowe's store page."
+    },
+    {
+      "id": "lowes-e-vancouver-1632",
+      "retailer": "Lowe's",
+      "name": "E. Vancouver",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": "1632",
+      "phone": "360-260-2120",
+      "active": true,
+      "address": "11413 NE 76th Street, Vancouver, WA 98662",
+      "notes": "Verified against Lowe's store page."
+    },
+    {
+      "id": "lowes-lacamas-lake-2954",
+      "retailer": "Lowe's",
+      "name": "Lacamas Lake",
+      "city": "Vancouver",
+      "state": "WA",
+      "store_number": "2954",
+      "phone": "360-514-9660",
+      "active": true,
+      "address": "18801 SE Mill Plain Blvd, Vancouver, WA 98683",
+      "notes": "Verified against Lowe's store page."
     }
   ]
 }
