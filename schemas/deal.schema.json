@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Pdxboss/pricehawk-data/schemas/deal.schema.json",
+  "title": "PriceHawk Deal",
+  "type": "object",
+  "required": ["id", "status", "retailer", "product", "category", "currency", "national_confidence", "local_verification", "first_seen", "last_seen", "sources", "store_signals"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "status": {"type": "string", "enum": ["actionable", "verify", "verified", "watching", "aging", "dead"]},
+    "retailer": {"type": "string", "minLength": 1},
+    "product": {"type": "string", "minLength": 1},
+    "brand": {"type": ["string", "null"]},
+    "category": {"type": "string", "minLength": 1},
+    "image_url": {"type": ["string", "null"], "format": "uri"},
+    "currency": {"type": "string", "const": "USD"},
+    "regular_price": {"type": ["number", "null"], "minimum": 0},
+    "reported_price": {"type": ["number", "null"], "minimum": 0},
+    "discount_pct": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+    "estimated_resale": {"type": ["number", "null"], "minimum": 0},
+    "estimated_profit": {"type": ["number", "null"]},
+    "estimated_roi": {"type": ["number", "null"]},
+    "max_buy_price": {"type": ["number", "null"], "minimum": 0},
+    "dpci": {"type": ["string", "null"]},
+    "tcin": {"type": ["string", "null"]},
+    "upc": {"type": ["string", "null"]},
+    "sku": {"type": ["string", "null"]},
+    "model": {"type": ["string", "null"]},
+    "carrier_status": {"type": ["string", "null"]},
+    "national_confidence": {"type": "string", "enum": ["low", "medium", "high"]},
+    "local_verification": {"type": "boolean"},
+    "reported_location": {"type": ["string", "null"]},
+    "first_seen": {"type": "string", "format": "date-time"},
+    "last_seen": {"type": "string", "format": "date-time"},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "url", "observed_at", "evidence"],
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "reported_price": {"type": ["number", "null"], "minimum": 0},
+          "location": {"type": ["string", "null"]},
+          "observed_at": {"type": "string", "format": "date-time"},
+          "evidence": {"type": "string"},
+          "is_primary": {"type": "boolean"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "store_signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["store_id", "inventory", "verified", "checked_at"],
+        "properties": {
+          "store_id": {"type": "string"},
+          "inventory": {"type": "string", "enum": ["in_stock", "limited", "out_of_stock", "not_sold", "unknown"]},
+          "observed_price": {"type": ["number", "null"], "minimum": 0},
+          "verified": {"type": "boolean"},
+          "verification_type": {"type": ["string", "null"], "enum": ["employee_phone_confirmation", "in_person_scan", "receipt", "shelf_tag", "other", null]},
+          "checked_at": {"type": "string", "format": "date-time"},
+          "source": {"type": ["string", "null"]},
+          "notes": {"type": ["string", "null"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "price_history": {"type": "array"},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}
