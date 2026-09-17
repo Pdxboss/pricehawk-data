@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-16T20:55:00-07:00",
+  "updated_at": "2026-09-16T21:14:17-07:00",
   "events": [
     {
       "id": "evt-20260916-001",
@@ -35,6 +35,21 @@
       "source": "PriceHawk scanner",
       "metadata": {
         "dpci": "255-14-5257"
+      }
+    },
+    {
+      "id": "evt-20260916-004",
+      "deal_id": "target-207-50-8383",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:14:17-07:00",
+      "message": "Manual Target scanner test created a fresh Kirby Switch 2 clearance lead at a reported $24 price.",
+      "source": "PriceHawk manual scanner",
+      "metadata": {
+        "reported_price": 24.0,
+        "regular_price": 79.99,
+        "discount_pct": 70.0,
+        "dpci": "207-50-8383",
+        "local_verification": false
       }
     }
   ]
