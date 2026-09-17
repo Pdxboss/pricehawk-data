@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Pdxboss/pricehawk-data/schemas/activity.schema.json",
+  "title": "PriceHawk Activity Event",
+  "type": "object",
+  "required": ["id", "type", "timestamp", "message", "source"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "deal_id": {"type": ["string", "null"]},
+    "type": {"type": "string", "enum": ["deal_created", "deal_updated", "source_added", "store_signal_added", "store_signal_updated", "local_verified", "price_changed", "deal_expired", "purchase_recorded", "sale_recorded", "note"]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "message": {"type": "string", "minLength": 1},
+    "source": {"type": "string", "minLength": 1},
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": true
+}
