@@ -1,1 +1,358 @@
-{"schema_version":"1.0.0","updated_at":"2026-09-17T07:24:55-07:00","events":[{"id":"evt-20260916-001","deal_id":"target-255-14-9998","type":"deal_created","timestamp":"2026-09-16T18:20:00-07:00","message":"Created iPhone 16 128GB Target clearance opportunity from fresh public deal evidence.","source":"PriceHawk scanner","metadata":{"reported_price":249.0,"dpci":"255-14-9998"}},{"id":"evt-20260916-002","deal_id":"target-255-14-9998","type":"store_signal_added","timestamp":"2026-09-16T19:12:00-07:00","message":"Cascade Station added as a Limited Stock local signal. Local price remains unverified.","source":"Target app","metadata":{"store_id":"target-cascade-station","inventory":"limited"}},{"id":"evt-20260916-003","deal_id":"target-255-14-5257","type":"deal_created","timestamp":"2026-09-16T19:20:00-07:00","message":"Created priority watch for iPhone 16 Pro 256GB Black Titanium.","source":"PriceHawk scanner","metadata":{"dpci":"255-14-5257"}},{"id":"evt-20260916-004","deal_id":"target-207-50-8383","type":"deal_created","timestamp":"2026-09-16T21:14:17-07:00","message":"Manual Target scanner test created a fresh Kirby Switch 2 clearance lead at a reported $24 price.","source":"PriceHawk manual scanner","metadata":{"reported_price":24.0,"regular_price":79.99,"discount_pct":70.0,"dpci":"207-50-8383","local_verification":false}},{"id":"evt-20260916-005","deal_id":null,"type":"note","timestamp":"2026-09-16T21:32:20-07:00","message":"Replaced placeholder local store records with a verified Portland-Vancouver baseline directory for Target, Home Depot, and Lowe's.","source":"PriceHawk baseline research","metadata":{"scope":"Portland-Vancouver metro","retailers":["Target","Home Depot","Lowe's"]}},{"id":"evt-20260916-006","deal_id":"target-207-50-4653","type":"deal_created","timestamp":"2026-09-16T21:32:20-07:00","message":"Added Cyberpunk 2077 Switch 2 Target clearance lead at a corroborated reported $21 price.","source":"PriceHawk baseline research","metadata":{"reported_price":21.0,"regular_price":65.99,"discount_pct":68.18,"dpci":"207-50-4653","local_verification":false}},{"id":"evt-20260916-007","deal_id":"target-207-50-0019","type":"deal_created","timestamp":"2026-09-16T21:32:20-07:00","message":"Added Dragon Quest I & II HD-2D Remake Switch 2 Target clearance lead at a corroborated reported $18 price.","source":"PriceHawk baseline research","metadata":{"reported_price":18.0,"regular_price":49.99,"discount_pct":63.99,"dpci":"207-50-0019","local_verification":false}},{"id":"evt-20260916-008","deal_id":"target-207-50-8215","type":"deal_created","timestamp":"2026-09-16T21:32:20-07:00","message":"Added Resident Evil Requiem Switch 2 Target clearance lead with a $34 corroborated reference and a deeper $21 store-specific report preserved in history.","source":"PriceHawk baseline research","metadata":{"reported_price":34.0,"regular_price":69.99,"discount_pct":51.42,"dpci":"207-50-8215","local_verification":false}},{"id":"evt-20260916-009","deal_id":"homedepot-342880227","type":"deal_created","timestamp":"2026-09-16T21:32:20-07:00","message":"Added current Milwaukee M18 8-tool Home Depot opportunity at $649 versus a $1,298 compare-at price.","source":"PriceHawk baseline research","metadata":{"reported_price":649.0,"regular_price":1298.0,"discount_pct":50.0,"model":"3692-28"}},{"id":"evt-20260916-010","deal_id":"homedepot-342964797","type":"deal_created","timestamp":"2026-09-16T21:32:20-07:00","message":"Added current Milwaukee M12 ratchet and battery starter-kit Home Depot opportunity at $199 versus a $459 compare-at price.","source":"PriceHawk baseline research","metadata":{"reported_price":199.0,"regular_price":459.0,"discount_pct":56.64,"model":"2457-20-48-59-2450P"}},{"id":"evt-20260916-011","deal_id":"homedepot-325264378","type":"deal_created","timestamp":"2026-09-16T21:32:20-07:00","message":"Added current RIDGID high-torque impact wrench kit at $249 and preserved the earlier $199 Daily Deal in price history.","source":"PriceHawk baseline research","metadata":{"reported_price":249.0,"regular_price":557.0,"discount_pct":55.3,"model":"R86212KSB"}},{"id":"evt-20260917-001","deal_id":"target-207-50-0031","type":"deal_created","timestamp":"2026-09-17T07:16:10-07:00","message":"Added Dragon Ball: Sparking! Zero Switch 2 Target clearance lead at a reported $18 price; local Portland/Vancouver availability remains unverified.","source":"PriceHawk manual scan","metadata":{"reported_price":18.0,"regular_price":43.99,"discount_pct":59.08,"dpci":"207-50-0031","local_verification":false}},{"id":"evt-20260917-002","deal_id":"homedepot-327848847","type":"deal_created","timestamp":"2026-09-17T07:16:10-07:00","message":"Added current RIDGID jig saw + router 2-tool Home Depot opportunity at $179 versus $358.","source":"PriceHawk manual scan","metadata":{"reported_price":179.0,"regular_price":358.0,"discount_pct":50.0,"model":"R920444SB"}},{"id":"evt-20260917-003","deal_id":"bestbuy-6672764","type":"deal_created","timestamp":"2026-09-17T07:24:55-07:00","message":"Added Best Buy Hisense 55-inch U7 MiniLED clearance opportunity at $690.99 versus a $1,299.99 comparable value.","source":"PriceHawk manual refresh","metadata":{"reported_price":690.99,"regular_price":1299.99,"discount_pct":46.85,"sku":"6672764","model":"55U7SG"}},{"id":"evt-20260917-004","deal_id":"costco-9665025","type":"deal_created","timestamp":"2026-09-17T07:24:55-07:00","message":"Added Costco LG 65-inch B6E OLED member deal at $999.99 versus LG's $1,599.99 reference price; local warehouse stock remains unverified.","source":"PriceHawk manual refresh","metadata":{"reported_price":999.99,"regular_price":1599.99,"discount_pct":37.5,"costco_item":"9665025","model":"OLED65B6EUA","local_verification":false}}]}
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-19T10:09:41-07:00",
+  "events": [
+    {
+      "id": "evt-20260916-001",
+      "deal_id": "target-255-14-9998",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T18:20:00-07:00",
+      "message": "Created iPhone 16 128GB Target clearance opportunity from fresh public deal evidence.",
+      "source": "PriceHawk scanner",
+      "metadata": {
+        "reported_price": 249,
+        "dpci": "255-14-9998"
+      }
+    },
+    {
+      "id": "evt-20260916-002",
+      "deal_id": "target-255-14-9998",
+      "type": "store_signal_added",
+      "timestamp": "2026-09-16T19:12:00-07:00",
+      "message": "Cascade Station added as a Limited Stock local signal. Local price remains unverified.",
+      "source": "Target app",
+      "metadata": {
+        "store_id": "target-cascade-station",
+        "inventory": "limited"
+      }
+    },
+    {
+      "id": "evt-20260916-003",
+      "deal_id": "target-255-14-5257",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T19:20:00-07:00",
+      "message": "Created priority watch for iPhone 16 Pro 256GB Black Titanium.",
+      "source": "PriceHawk scanner",
+      "metadata": {
+        "dpci": "255-14-5257"
+      }
+    },
+    {
+      "id": "evt-20260916-004",
+      "deal_id": "target-207-50-8383",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:14:17-07:00",
+      "message": "Manual Target scanner test created a fresh Kirby Switch 2 clearance lead at a reported $24 price.",
+      "source": "PriceHawk manual scanner",
+      "metadata": {
+        "reported_price": 24,
+        "regular_price": 79.99,
+        "discount_pct": 70,
+        "dpci": "207-50-8383",
+        "local_verification": false
+      }
+    },
+    {
+      "id": "evt-20260916-005",
+      "deal_id": null,
+      "type": "note",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Replaced placeholder local store records with a verified Portland-Vancouver baseline directory for Target, Home Depot, and Lowe's.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "scope": "Portland-Vancouver metro",
+        "retailers": [
+          "Target",
+          "Home Depot",
+          "Lowe's"
+        ]
+      }
+    },
+    {
+      "id": "evt-20260916-006",
+      "deal_id": "target-207-50-4653",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Added Cyberpunk 2077 Switch 2 Target clearance lead at a corroborated reported $21 price.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "reported_price": 21,
+        "regular_price": 65.99,
+        "discount_pct": 68.18,
+        "dpci": "207-50-4653",
+        "local_verification": false
+      }
+    },
+    {
+      "id": "evt-20260916-007",
+      "deal_id": "target-207-50-0019",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Added Dragon Quest I & II HD-2D Remake Switch 2 Target clearance lead at a corroborated reported $18 price.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "reported_price": 18,
+        "regular_price": 49.99,
+        "discount_pct": 63.99,
+        "dpci": "207-50-0019",
+        "local_verification": false
+      }
+    },
+    {
+      "id": "evt-20260916-008",
+      "deal_id": "target-207-50-8215",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Added Resident Evil Requiem Switch 2 Target clearance lead with a $34 corroborated reference and a deeper $21 store-specific report preserved in history.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "reported_price": 34,
+        "regular_price": 69.99,
+        "discount_pct": 51.42,
+        "dpci": "207-50-8215",
+        "local_verification": false
+      }
+    },
+    {
+      "id": "evt-20260916-009",
+      "deal_id": "homedepot-342880227",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Added current Milwaukee M18 8-tool Home Depot opportunity at $649 versus a $1,298 compare-at price.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "reported_price": 649,
+        "regular_price": 1298,
+        "discount_pct": 50,
+        "model": "3692-28"
+      }
+    },
+    {
+      "id": "evt-20260916-010",
+      "deal_id": "homedepot-342964797",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Added current Milwaukee M12 ratchet and battery starter-kit Home Depot opportunity at $199 versus a $459 compare-at price.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "reported_price": 199,
+        "regular_price": 459,
+        "discount_pct": 56.64,
+        "model": "2457-20-48-59-2450P"
+      }
+    },
+    {
+      "id": "evt-20260916-011",
+      "deal_id": "homedepot-325264378",
+      "type": "deal_created",
+      "timestamp": "2026-09-16T21:32:20-07:00",
+      "message": "Added current RIDGID high-torque impact wrench kit at $249 and preserved the earlier $199 Daily Deal in price history.",
+      "source": "PriceHawk baseline research",
+      "metadata": {
+        "reported_price": 249,
+        "regular_price": 557,
+        "discount_pct": 55.3,
+        "model": "R86212KSB"
+      }
+    },
+    {
+      "id": "evt-20260917-001",
+      "deal_id": "target-207-50-0031",
+      "type": "deal_created",
+      "timestamp": "2026-09-17T07:16:10-07:00",
+      "message": "Added Dragon Ball: Sparking! Zero Switch 2 Target clearance lead at a reported $18 price; local Portland/Vancouver availability remains unverified.",
+      "source": "PriceHawk manual scan",
+      "metadata": {
+        "reported_price": 18,
+        "regular_price": 43.99,
+        "discount_pct": 59.08,
+        "dpci": "207-50-0031",
+        "local_verification": false
+      }
+    },
+    {
+      "id": "evt-20260917-002",
+      "deal_id": "homedepot-327848847",
+      "type": "deal_created",
+      "timestamp": "2026-09-17T07:16:10-07:00",
+      "message": "Added current RIDGID jig saw + router 2-tool Home Depot opportunity at $179 versus $358.",
+      "source": "PriceHawk manual scan",
+      "metadata": {
+        "reported_price": 179,
+        "regular_price": 358,
+        "discount_pct": 50,
+        "model": "R920444SB"
+      }
+    },
+    {
+      "id": "evt-20260917-003",
+      "deal_id": "bestbuy-6672764",
+      "type": "deal_created",
+      "timestamp": "2026-09-17T07:24:55-07:00",
+      "message": "Added Best Buy Hisense 55-inch U7 MiniLED clearance opportunity at $690.99 versus a $1,299.99 comparable value.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 690.99,
+        "regular_price": 1299.99,
+        "discount_pct": 46.85,
+        "sku": "6672764",
+        "model": "55U7SG"
+      }
+    },
+    {
+      "id": "evt-20260917-004",
+      "deal_id": "costco-9665025",
+      "type": "deal_created",
+      "timestamp": "2026-09-17T07:24:55-07:00",
+      "message": "Added Costco LG 65-inch B6E OLED member deal at $999.99 versus LG's $1,599.99 reference price; local warehouse stock remains unverified.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 999.99,
+        "regular_price": 1599.99,
+        "discount_pct": 37.5,
+        "costco_item": "9665025",
+        "model": "OLED65B6EUA",
+        "local_verification": false
+      }
+    },
+    {
+      "id": "evt-20260919-001",
+      "deal_id": "target-207-50-8383",
+      "type": "deal_updated",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Fresh independent Target report reconfirmed Kirby at $24.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 24,
+        "dpci": "207-50-8383"
+      }
+    },
+    {
+      "id": "evt-20260919-002",
+      "deal_id": "target-207-50-0005",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added Split Fiction Switch 2 Target clearance lead at $15 from corroborated fresh reports.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 15,
+        "regular_price": 39.99,
+        "discount_pct": 62.49,
+        "dpci": "207-50-0005"
+      }
+    },
+    {
+      "id": "evt-20260919-003",
+      "deal_id": "target-207-50-0008",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added Sonic x Shadow Generations Switch 2 Target clearance lead at $15.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 15,
+        "regular_price": 37.49,
+        "discount_pct": 59.99,
+        "dpci": "207-50-0008"
+      }
+    },
+    {
+      "id": "evt-20260919-004",
+      "deal_id": "target-207-50-0042",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added Assassin's Creed Shadow Switch 2 Target clearance lead at $18 from multiple fresh reports.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 18,
+        "regular_price": 44.99,
+        "discount_pct": 59.99,
+        "dpci": "207-50-0042"
+      }
+    },
+    {
+      "id": "evt-20260919-005",
+      "deal_id": "target-207-50-0014",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added Star Wars Outlaws Gold Edition Switch 2 Target clearance lead at $18 from multiple fresh reports.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 18,
+        "regular_price": 52.99,
+        "discount_pct": 66.03,
+        "dpci": "207-50-0014"
+      }
+    },
+    {
+      "id": "evt-20260919-006",
+      "deal_id": "bestbuy-6677122",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added Best Buy Insignia 55-inch F70 Mini-LED TV at $234.99 versus $699.99 comparable value.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 234.99,
+        "regular_price": 699.99,
+        "discount_pct": 66.43,
+        "sku": "6677122",
+        "model": "NS-55F703NA27"
+      }
+    },
+    {
+      "id": "evt-20260919-007",
+      "deal_id": "bestbuy-6673874",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added Best Buy Hisense 55-inch S7 Canvas TV at $797.99 versus $1,499.99 comparable value.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 797.99,
+        "regular_price": 1499.99,
+        "discount_pct": 46.8,
+        "sku": "6673874",
+        "model": "55S7SG"
+      }
+    },
+    {
+      "id": "evt-20260919-008",
+      "deal_id": "homedepot-327727283",
+      "type": "deal_created",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Added RIDGID jig saw + grinder 2-tool combo at $149 versus $318.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 149,
+        "regular_price": 318,
+        "discount_pct": 53.14,
+        "model": "R9204447SB"
+      }
+    },
+    {
+      "id": "evt-20260919-009",
+      "deal_id": "costco-9665025",
+      "type": "deal_updated",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Revalidated the Costco LG 65-inch B6E OLED deal at $999.99 on the current warehouse-savings page.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 999.99,
+        "costco_item": "9665025",
+        "model": "OLED65B6EUA"
+      }
+    },
+    {
+      "id": "evt-20260919-010",
+      "deal_id": "homedepot-327848847",
+      "type": "deal_updated",
+      "timestamp": "2026-09-19T10:09:41-07:00",
+      "message": "Revalidated the RIDGID jig saw + router combo at $179 versus $358.",
+      "source": "PriceHawk manual refresh",
+      "metadata": {
+        "reported_price": 179,
+        "regular_price": 358,
+        "discount_pct": 50,
+        "model": "R920444SB"
+      }
+    }
+  ]
+}
